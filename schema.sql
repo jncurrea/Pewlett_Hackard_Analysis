@@ -50,6 +50,5 @@ CREATE TABLE titles(
 	title varchar(20),
 	from_date date not null,
 	to_date date not null,
-	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-	primary key (emp_no)
+	FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 );
